@@ -1,0 +1,16 @@
+PODS:
+  - DBCropImage (0.1.0)
+
+DEPENDENCIES:
+  - DBCropImage (from `../`)
+
+EXTERNAL SOURCES:
+  DBCropImage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DBCropImage: 3ba1e3c2162cf4e8fac1e9b94802c6d80fbbb362
+
+PODFILE CHECKSUM: 8935fd72dc7e810165ebfa0f73148a0326010d40
+
+COCOAPODS: 1.10.0

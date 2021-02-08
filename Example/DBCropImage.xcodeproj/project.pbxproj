@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00F16A2125D133C400C86F7B /* CupedResultVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F16A1D25D133C400C86F7B /* CupedResultVC.m */; };
+		00F16A2225D133C400C86F7B /* CupedResultVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00F16A1E25D133C400C86F7B /* CupedResultVC.xib */; };
+		00F16A2325D133C400C86F7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F16A1F25D133C400C86F7B /* ViewController.m */; };
+		00F16A2425D133C400C86F7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F16A2025D133C400C86F7B /* Main.storyboard */; };
+		00F16A2925D133CF00C86F7B /* YasicClipPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F16A2825D133CF00C86F7B /* YasicClipPage.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* DBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* DBAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* DBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* DBViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -21,7 +25,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A4DBFCB855C4BAA9D2187484 /* Pods_DBCropImage_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE87D8FC1A13FCAC7830105 /* Pods_DBCropImage_Tests.framework */; };
 		CFBE081ABD6AFF20CFFF34A0 /* Pods_DBCropImage_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E41011BD64C7006F4BF3F0A5 /* Pods_DBCropImage_Example.framework */; };
 /* End PBXBuildFile section */
@@ -37,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00F16A1B25D133C400C86F7B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		00F16A1C25D133C400C86F7B /* CupedResultVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CupedResultVC.h; sourceTree = "<group>"; };
+		00F16A1D25D133C400C86F7B /* CupedResultVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CupedResultVC.m; sourceTree = "<group>"; };
+		00F16A1E25D133C400C86F7B /* CupedResultVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CupedResultVC.xib; sourceTree = "<group>"; };
+		00F16A1F25D133C400C86F7B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00F16A2025D133C400C86F7B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		00F16A2725D133CF00C86F7B /* YasicClipPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YasicClipPage.h; sourceTree = "<group>"; };
+		00F16A2825D133CF00C86F7B /* YasicClipPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YasicClipPage.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DBCropImage_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBCropImage_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,8 +58,6 @@
 		6003F59B195388D20070C39A /* DBCropImage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DBCropImage-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* DBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* DBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* DBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* DBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* DBCropImage_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBCropImage_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -58,15 +67,14 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		62962C4CAE2373177935C435 /* Pods-DBCropImage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBCropImage_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DBCropImage_Tests/Pods-DBCropImage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7F61482783D2E6F42E1E27BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F61482783D2E6F42E1E27BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		936D2083BA75097C26BECB10 /* Pods-DBCropImage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBCropImage_Example.release.xcconfig"; path = "Target Support Files/Pods-DBCropImage_Example/Pods-DBCropImage_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B3947DF550A4F9B1239D7218 /* Pods-DBCropImage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBCropImage_Tests.release.xcconfig"; path = "Target Support Files/Pods-DBCropImage_Tests/Pods-DBCropImage_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B9FD74974E8C070999527748 /* DBCropImage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DBCropImage.podspec; path = ../DBCropImage.podspec; sourceTree = "<group>"; };
+		B9FD74974E8C070999527748 /* DBCropImage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DBCropImage.podspec; path = ../DBCropImage.podspec; sourceTree = "<group>"; };
 		CEE87D8FC1A13FCAC7830105 /* Pods_DBCropImage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DBCropImage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41011BD64C7006F4BF3F0A5 /* Pods_DBCropImage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DBCropImage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F85961AB338B2E09B981AC3E /* Pods-DBCropImage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBCropImage_Example.debug.xcconfig"; path = "Target Support Files/Pods-DBCropImage_Example/Pods-DBCropImage_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FDFA19DFB822D74488B9AA6D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FDFA19DFB822D74488B9AA6D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,9 +142,14 @@
 			children = (
 				6003F59C195388D20070C39A /* DBAppDelegate.h */,
 				6003F59D195388D20070C39A /* DBAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* DBViewController.h */,
-				6003F5A6195388D20070C39A /* DBViewController.m */,
+				00F16A2725D133CF00C86F7B /* YasicClipPage.h */,
+				00F16A2825D133CF00C86F7B /* YasicClipPage.m */,
+				00F16A1C25D133C400C86F7B /* CupedResultVC.h */,
+				00F16A1D25D133C400C86F7B /* CupedResultVC.m */,
+				00F16A1E25D133C400C86F7B /* CupedResultVC.xib */,
+				00F16A2025D133C400C86F7B /* Main.storyboard */,
+				00F16A1B25D133C400C86F7B /* ViewController.h */,
+				00F16A1F25D133C400C86F7B /* ViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +206,6 @@
 				62962C4CAE2373177935C435 /* Pods-DBCropImage_Tests.debug.xcconfig */,
 				B3947DF550A4F9B1239D7218 /* Pods-DBCropImage_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +270,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -277,10 +290,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				00F16A2425D133C400C86F7B /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				00F16A2225D133C400C86F7B /* CupedResultVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,8 +378,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00F16A2125D133C400C86F7B /* CupedResultVC.m in Sources */,
 				6003F59E195388D20070C39A /* DBAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* DBViewController.m in Sources */,
+				00F16A2925D133CF00C86F7B /* YasicClipPage.m in Sources */,
+				00F16A2325D133C400C86F7B /* ViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -497,6 +513,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DBCropImage/DBCropImage-Prefix.pch";
 				INFOPLIST_FILE = "DBCropImage/DBCropImage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +530,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DBCropImage/DBCropImage-Prefix.pch";
 				INFOPLIST_FILE = "DBCropImage/DBCropImage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

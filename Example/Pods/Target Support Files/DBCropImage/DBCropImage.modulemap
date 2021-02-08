@@ -1,0 +1,6 @@
+framework module DBCropImage {
+  umbrella header "DBCropImage-umbrella.h"
+
+  export *
+  module * { export * }
+}
