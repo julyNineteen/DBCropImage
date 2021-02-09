@@ -10,21 +10,21 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'DBCropImage'
 ```
-不多说，先上图：
+### 不多说，先上图：
 ![裁剪图片.gif](https://github.com/julyNineteen/DBCropImage/blob/main/cropImage.gif)
-源代码仓库
-https://github.com/julyNineteen/DBCropImage
+
 
 ## 简介
 一个专门裁剪图片轻量级的轮子，简单易用，功能丰富（高自由度的参数设定、支持旋转和缩放、拖动），能满足绝大部分裁剪的需求。源代码公开，具体详细实现逻辑参数都在里面。非常支持自定义。
-目前功能：
+    
+    目前功能：
     ✅ 支持任意角度360度的旋转；
     ✅ 高自由度的参数设定，包括裁剪区域颜色大小、裁剪宽高比等；
     ✅支持固定或者可移动的裁剪框
     ✅ 支持固定或者可移动的裁剪框
     ✅ 裁剪算法公开，轻量级，非常适合自定义为适合自己的项目
 
-   使用非常简单，一个初始化方法搞定
+##   使用非常简单，一个初始化方法搞定
 ```
        DBCropImageController *vc = [[DBCropImageController alloc] init];
         vc.lineColor = UIColor.whiteColor;//裁剪框线条眼色
@@ -48,7 +48,7 @@ https://github.com/julyNineteen/DBCropImage
         vc.modalPresentationStyle = 0;
         [self presentViewController:vc animated:YES completion:nil];
 ```
-核心裁剪逻辑实现在这里，代码注释非常详细，适合对图片裁剪领域的学习。
+### 核心裁剪逻辑实现在这里，代码注释非常详细，适合对图片裁剪领域的学习。
 ```
 //操作UIKit上下文的操作方式是线程安全的,但你似乎无法在一个线程之外创建一个除了主程序,因为UIGraphicsBeginImageContextWithOptions“应该只在主程序中调用线程“,但仍然这样做的工作是完美的
 - (UIImage *)clipImageWithSoucreImageView:(UIImageView *)imageView{
@@ -131,8 +131,14 @@ https://github.com/julyNineteen/DBCropImage
 }
 ```
 
+### 源代码仓库
+    https://github.com/julyNineteen/DBCropImage
 
-简书链接：https://www.jianshu.com/p/1298428f5848
+## 反馈地址
+
+    扣扣：807224386
+    E-mail: julylions@163.com
+    博客：https://www.jianshu.com/p/1298428f5848
 
 ## Author
 
