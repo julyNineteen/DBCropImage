@@ -1,14 +1,14 @@
 # DBCropImage
-
-## Requirements
+[iOS实现动态区域裁剪图片--支持旋转、缩放、拖动手势](https://www.jianshu.com/p/1298428f5848)
 
 ## Installation
 
-DBCropImage is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+可通过[CocoaPods](http://cocoapods.org)安装，只需添加下面一行到你的podfile：
 
 ```ruby
 pod 'DBCropImage'
+
+版本更新指令：pod update --no-repo-update
 ```
 ### 不多说，先上图：
 ![裁剪图片.gif](https://github.com/julyNineteen/DBCropImage/blob/main/cropImage.gif)
@@ -26,27 +26,27 @@ pod 'DBCropImage'
 
 ##   使用非常简单，一个初始化方法搞定
 ```
-       DBCropImageController *vc = [[DBCropImageController alloc] init];
-        vc.lineColor = UIColor.whiteColor;//裁剪框线条眼色
-        vc.isShowShaw = true;               //裁剪框线条是否显示阴影
-        vc.lineWidth = 2;                        //裁剪框线条的宽度
-        vc.isFixCropArea = false;       //是否固定裁剪框
-        vc.widthHeightRate = 3/4.0;//设置宽高比例
-        vc.cropAreaHeight = 50;      //设置最小裁剪高度
-        vc.image = image;                 //传入裁剪图片
-       //裁剪图片回调
-        vc.clippedBlock = ^(UIImage * _Nonnull clippedImage) {
-            CupedResultVC *ResultVC = [[CupedResultVC alloc] init];
-            ResultVC.resultImage = clippedImage;
-            ResultVC.modalPresentationStyle = 0;
-            [self presentViewController:ResultVC animated:YES completion:nil];
-        };
-       //取消裁剪
-        vc.cancelClipBlock = ^{
-            [self dismissViewControllerAnimated:YES completion:nil];
-        };
-        vc.modalPresentationStyle = 0;
-        [self presentViewController:vc animated:YES completion:nil];
+DBCropImageController *vc = [[DBCropImageController alloc] init];
+vc.lineColor = UIColor.whiteColor;//裁剪框线条眼色
+vc.isShowShaw = true;               //裁剪框线条是否显示阴影
+vc.lineWidth = 2;                        //裁剪框线条的宽度
+vc.isFixCropArea = false;       //是否固定裁剪框
+vc.widthHeightRate = 3/4.0;//设置宽高比例
+vc.cropAreaHeight = 50;      //设置最小裁剪高度
+vc.image = image;                 //传入裁剪图片
+//裁剪图片回调
+vc.clippedBlock = ^(UIImage * _Nonnull clippedImage) {
+    CupedResultVC *ResultVC = [[CupedResultVC alloc] init];
+    ResultVC.resultImage = clippedImage;
+    ResultVC.modalPresentationStyle = 0;
+    [self presentViewController:ResultVC animated:YES completion:nil];
+};
+//取消裁剪
+vc.cancelClipBlock = ^{
+    [self dismissViewControllerAnimated:YES completion:nil];
+};
+vc.modalPresentationStyle = 0;
+[self presentViewController:vc animated:YES completion:nil];
 ```
 ### 核心裁剪逻辑实现在这里，代码注释非常详细，适合对图片裁剪领域的学习。
 ```
@@ -131,8 +131,8 @@ pod 'DBCropImage'
 }
 ```
 
-### 源代码仓库
-    https://github.com/julyNineteen/DBCropImage
+[源代码仓库地址](https://github.com/julyNineteen/DBCropImage)
+   
 
 ## 反馈地址
 
