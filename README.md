@@ -11,7 +11,7 @@ it, simply add the following line to your Podfile:
 pod 'DBCropImage'
 ```
 不多说，先上图：
-![裁剪图片.gif](https://upload-images.jianshu.io/upload_images/3067622-e9448ba0ffc7f24b.gif?imageMogr2/auto-orient/strip)
+![裁剪图片.gif](https://github.com/julyNineteen/DBCropImage/blob/main/cropImage.gif)
 源代码仓库
 https://github.com/julyNineteen/DBCropImage
 
